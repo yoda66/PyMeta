@@ -51,6 +51,14 @@ class PyMetaExtractor():
             print('    [+] {:15s} => {}'.format(tag, value))
 
 if __name__ == '__main__':
+    print('''
+_______________________________________
+
+    PyMeta version 1.0
+    Author: Joff Thyer (c) 2020
+    Black Hills Information Security
+_______________________________________
+''')
     parser = argparse.ArgumentParser()
     parser.add_argument('directory', help='starting directory')
     args = parser.parse_args()
