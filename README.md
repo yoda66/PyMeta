@@ -1,8 +1,8 @@
 ## PyMeta
 
 A Python3 script which reads all files in a directory
-recursively and extract potential metadata from office
-documents, and PDFs.
+recursively and extracts metadata from any office
+documents, and PDFs discovered.
 
 Requires both lxml, and PyPDF2 modules.
 
